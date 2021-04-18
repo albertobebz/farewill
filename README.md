@@ -90,7 +90,7 @@ Alberto Ferioli
    
    
 ### HOW TO RUN THE APP
-- cd app
+- cd farewill
 - npm install
 - npm run start
 - npm run test
