@@ -51,4 +51,14 @@ export const SPACING = {
   XL: "48px",
 };
 
+export const CARD_DIMENSIONS = {
+  WIDTHL: "392px",
+  WIDTHXXS: "180px",
+};
+
+export const BREAK_POINTS = {
+  S: "1024px",
+  L: "1025px",
+};
+
 export const CONTENT_WIDTH = "900px";

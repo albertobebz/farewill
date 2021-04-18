@@ -71,7 +71,26 @@ If you don't want to use Glitch for any reason, you can [download the project](h
 
 #### Things you may wish to cover in your notes:
 
+Alberto Ferioli
+
 - Thoughts and reasonings behind your decisions
+   - I opted for the creation of 2 components, one for the wrapper of the cards and the other one for the card itself. Both components have been styled using styled-component.
+   The primary goal was to have all the ACs completed as MVP, once done it I wanted to add few coverage, testing the components with Jest and Enzyme, also adding a tiny animation on the hover over of the card. I've decided to do not use any state managment for the app, but having all the state at App level
 - What went well?
+   - I liked the initial boilerplate provided, didn't expect that 😅. I enojoyed completing the rest of the requirments and adding the missing functionality. I love the Simpson! 
 - What could have gone better?
+   - The requirements asked to complete the application on glitch but was really slow on my end, not sure if it was my internet connection or the service at the time I tried the test but that slowed down my development process, so I opted to work locally and provide the files.
 - Is there anything particular you'd like to come back and improve if you had time? Why?
+   With more time I'd definetly improve the following area
+   - error handling in the app (there's already a state in place which can be used), definetly something to conside if we fetch data from a 3rd party API
+   - test the application on different browsers/devices and fix potential CSS issues
+   - if app grows I'd personally implement a state managment such as context/Redux/Mobx
+   - use of typescript to make the app more robust
+   - bump the test coverage
+   
+   
+### HOW TO RUN THE APP
+- cd app
+- npm install
+- npm run start
+- npm run test
